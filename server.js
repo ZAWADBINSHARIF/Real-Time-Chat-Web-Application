@@ -8,6 +8,9 @@ const path = require('path');
 // internal imports
 const dbConnection = require('./config/DatabaseConnection');
 const errorHandler = require('./middleware/common/ErrorHandler');
+const loginRoute = require('./routers/loginRoute');
+const usersRoute = require('./routers/usersRoute');
+const indexRoute = require('./routers/indexRoute');
 
 require('dotenv').config();
 
@@ -33,7 +36,7 @@ app.use(cookieParser());
 
 // route setup
 app.use("/", loginRoute);
-app.use("/users", userRoute);
+app.use("/users", usersRoute);
 app.use("/index", indexRoute);
 
 // 404 not found page
