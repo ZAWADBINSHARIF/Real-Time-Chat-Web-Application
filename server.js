@@ -31,6 +31,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 // cookie parser middleware
 app.use(cookieParser());
 
+// route setup
+app.use("/", loginRoute);
+app.use("/users", userRoute);
+app.use("/index", indexRoute);
+
 // 404 not found page
 app.use(errorHandler.notFoundHandler);
 
