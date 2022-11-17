@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\middleware",
+    "\\middleware\\common",
+    "\\middleware\\common\\users",
+    "\\models",
+    "\\public",
+    "\\public\\uploads",
+    "\\routers",
+    "\\utilities"
+  ],
+  "SelectedNode": "\\public\\uploads\\avatars",
+  "PreviewInSolutionExplorer": false
+}

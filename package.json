@@ -2,7 +2,7 @@
   "name": "chat-web-application",
   "version": "1.0.0",
   "description": "This is a real-time chatting application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "SET NODE_ENV=development && nodemon server.js -e js, json, ejs",
     "production": "SET NODE_ENV=production && node server.js"
